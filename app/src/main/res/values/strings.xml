@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="app_key_pair">生成公私钥</string>
+    <string name="app_sm2_enc">sm2公钥加密</string>
+    <string name="app_sm2_dec">sm2私钥解密</string>
+    <string name="app_sm3_enc">sm3加密</string>
+
+    <string name="app_sm4_enc">sm4加密</string>
+    <string name="app_sm4_dec">sm4解密</string>
+
+    <string name="app_md5_enc">md5加密</string>
+
+    <string name="app_hex_enc">Hex加密</string>
+    <string name="app_hex_dec">Hex解密</string>
+
+    <string name="app_base64_enc">Base64加密</string>
+    <string name="app_base64_dec">Base64解密</string>
+
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:text="@string/app_key_pair"
+        android:id="@+id/btn_key_pair"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_sm2_enc"
+        android:id="@+id/btn_sm2_encrypt"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_sm2_dec"
+        android:id="@+id/btn_sm2_decrypt"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_sm3_enc"
+        android:id="@+id/btn_sm3_enc"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_sm4_enc"
+        android:id="@+id/btn_sm4_enc"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_sm4_dec"
+        android:id="@+id/btn_sm4_dec"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_md5_enc"
+        android:id="@+id/btn_md5_enc"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_hex_enc"
+        android:id="@+id/btn_hex_enc"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_hex_dec"
+        android:id="@+id/btn_hex_dec"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_base64_enc"
+        android:id="@+id/btn_base64_enc"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_base64_dec"
+        android:id="@+id/btn_base64_dec"
+        />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
